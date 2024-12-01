@@ -48,30 +48,38 @@ header img {
 }
 
 
-.header h1 {
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.over {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: (-50%, -50%);
+}
+
+h2 {
     font-family: "Fascinate Inline", system-ui;
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
-  text-align: center;
-  padding-top: 1%;
-  
+  color: black;
+
 }
 
-.dates p {
-    font-family: "Cormorant", serif;
-  font-optical-sizing: auto;
-  font-weight: 476;
+
+p {
+    font-family: "Tinos", serif;
+  font-weight: 400;
   font-style: normal;
-  
 }
 
-.location p {
-    font-family: "Cormorant", serif;
-  font-optical-sizing: auto;
-  font-weight: 476;
-  font-style: normal;
-  
-}
+
+
 
 footer {
     background-color: #75b0d7;
