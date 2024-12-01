@@ -4,6 +4,7 @@
     padding: 0%;
 }
 
+
 body {
     background-color: #F3EFE0;
 }
@@ -47,8 +48,8 @@ header img {
 }
 
 footer {
-    background-color: rgb(117, 176, 215);
-    color: white;
-    text-align: center;
-    padding: 10px 0;
+    background-color: #75b0d7;
+color: white;
+text-align: center;
+padding: 10px 0;
 }

@@ -1,3 +1,10 @@
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
 body {
     background-color: #F3EFE0;
 }
@@ -40,8 +47,34 @@ header img {
     color: #B592A8;
 }
 
+
+.header h1 {
+    font-family: "Fascinate Inline", system-ui;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+  padding-top: 1%;
+  
+}
+
+.dates p {
+    font-family: "Cormorant", serif;
+  font-optical-sizing: auto;
+  font-weight: 476;
+  font-style: normal;
+  
+}
+
+.location p {
+    font-family: "Cormorant", serif;
+  font-optical-sizing: auto;
+  font-weight: 476;
+  font-style: normal;
+  
+}
+
 footer {
-    background-color: rgb(117, 176, 215);
+    background-color: #75b0d7;
     color: white;
     text-align: center;
     padding: 10px 0;
