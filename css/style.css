@@ -93,7 +93,7 @@ h2 {
     text-shadow: 2px 2px #B592A8;
 }
 
-p {
+.container p {
     font-family: "Tinos", serif;
   font-weight: 600;
   font-style: normal;
@@ -108,7 +108,7 @@ p {
    padding-top: 2%;
 }
 
-.about-text p {
+.about-text {
     position: relative;
     left: 3%;
     right: 5%;
@@ -116,6 +116,18 @@ p {
     padding-top: 1%;
     font-weight: 500;
 }
+
+.about-text p {
+    font-family: "Tinos", serif;
+    font-weight: 300;
+    font-style: normal;
+    color: black;
+}
+
+.sponsor h2 {
+    text-align: center;
+}
+
 
 .sponsor h2 {
     font-size: 40px;

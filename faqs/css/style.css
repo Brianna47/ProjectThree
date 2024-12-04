@@ -1,3 +1,10 @@
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
 body {
     background-color: #F3EFE0;
 }
@@ -40,44 +47,49 @@ header img {
     color: #B592A8;
 }
 
+
 h2 {
-    text-align: center;
+    font-family: "Fascinate Inline", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    font-size: 40px;
+    text-shadow: 2px 2px #B592A8;
+    padding-top: 2%;
+    padding-left: 1%;
 }
 
-.row {
+h4 {
+    padding-left: 1%;
+}
+
+p {
+    font-family: "Tinos", serif;
+  font-weight: 300;
+  font-style: normal;
+  padding-left: 2%;
+}
+
+hr {
+    border-top: 5px solid #d7c8d2;
+    border-radius: 2px;
+}
+
+img {
+    width: 300px;
+}
+
+.merch-img {
     display: flex;
-    align-items: center;
-    margin-bottom: 20px;
+    flex: 30%;
+    padding-left: 19%;
 }
 
-.row:nth-child(odd) {
-    flex-direction: row;
-}
 
-.row:nth-child(even) {
-    flex-direction: row-reverse;
-}
-
-.text {
-    flex: 1;
-    padding: 20px;
-}
-
-.img {
-    flex: 1;
-    padding: 20px;
-    text-align: center;
-}
-
-.img img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
 
 footer {
-    background-color: rgb(117, 176, 215);
-    color: white;
-    text-align: center;
-    padding: 10px 0;
+    background-color: #75b0d7;
+color: white;
+text-align: center;
+padding: 10px 0;
 }
