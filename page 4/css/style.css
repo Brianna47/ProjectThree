@@ -47,8 +47,15 @@ header img {
     color: #B592A8;
 }
 
+img {
+    width: 300px;
+}
 
-
+.merch-img {
+    display: flex;
+    flex: 30%;
+    padding-left: 19%;
+}
 
 footer {
     background-color: #75b0d7;
