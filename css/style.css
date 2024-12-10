@@ -7,6 +7,7 @@
 
 body {
     background-color: #F3EFE0;
+
 }
 
 header {
@@ -66,7 +67,7 @@ header img {
 .container img {
     opacity: 0.6;
     height: 900px;
-    width: 100%;
+    width: 95%;
 }
 
 .over {
@@ -116,6 +117,7 @@ h2 {
     padding-bottom: 2%;
     padding-top: 1%;
     font-weight: 500;
+
 }
 
 .about-text p {
@@ -126,10 +128,15 @@ h2 {
     color: black;
     padding-left: 1%;
     padding-right: 1%;
+    border: 3px solid #b592a853;
+    background-color: #b592a88a;
+    word-wrap: break-word;
 }
 
 .sponsor h2 {
     text-align: center;
+    position: relative;
+    top: 40px;
 }
 
 
@@ -141,13 +148,14 @@ h2 {
 }
 
 .sponsor-img img {
-    width: 270px;
+    width: 290px;
     padding-left: 10%;
 }
 
 .sponsor-img {
     display: flex;
     flex: 30%;
+    position: relative;
 
     
     
