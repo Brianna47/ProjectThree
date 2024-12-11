@@ -107,7 +107,7 @@ h2 {
 
 .change {
     font-family: "Tinos", serif;
-    font-weight: 600;
+    font-weight: 500;
     font-style: normal;
     font-size: 18px; 
     padding-left: 10px;
@@ -122,26 +122,38 @@ h2 {
     font-size: 40px;
 }
 
+.day-two h3 {
+    position: relative;
+
+}
+
 .day-two {
     text-align: right;
-    padding-right: 2%;
+    padding-right: 1px;
 }
 
 .day-two p {
     position: relative;
-    right: 3%;
+
 }
 
 .day-two h4 {
-    padding-right: 3%;
+    position: relative;
+    right: 1px;
 }
 
 
+.day-three {
+    position: relative;
+    bottom: 2px;
+
+}
 
 footer {
     background-color: rgb(117, 176, 215);
     color: white;
     text-align: center;
-    padding: 10px 0;
+
+
     
 }
