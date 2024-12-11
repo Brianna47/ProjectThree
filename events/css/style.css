@@ -94,6 +94,50 @@ h2 {
     transform: scale(1.05);
     transition: transform 0.3s ease;
 }
+
+.font {
+    font-family: "Fascinate Inline", system-ui;
+    font-weight: 300;
+    font-size: 45px;
+    text-align: center;   
+    text-shadow: 1px 1px #B592A8;
+
+}
+
+
+.change {
+    font-family: "Tinos", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px; 
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+#days h3 {
+    font-family: "Fascinate Inline", system-ui;
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.day-two {
+    text-align: right;
+    padding-right: 2%;
+}
+
+.day-two p {
+    position: relative;
+    right: 3%;
+}
+
+.day-two h4 {
+    padding-right: 3%;
+}
+
+
+
 footer {
     background-color: rgb(117, 176, 215);
     color: white;
