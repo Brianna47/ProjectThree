@@ -2,19 +2,23 @@
 * {
     margin: 0%;
     padding: 0%;
+    box-sizing: border-box;
 }
 
 
 body {
     background-color: #F3EFE0;
-
+    min-height: 100dvh;
+    width: 100%;
 }
+
+
 
 header {
     background-color: #B592A8;
     color: white;
     text-align: center;
-    padding: 20px 0;
+    padding: 1.25em 0;
     position: relative;
 }
 
@@ -22,16 +26,16 @@ header img {
     position: relative;
     display: block;
     margin: 0 auto;
-    max-width: 100px;
+    max-width: 10%;
     border-radius: 50%;
-    left: 20px;
+    left: 1.25em;
     
 }
 
 .nav {
     position: absolute;
-    bottom: 10px;
-    right: 20px;
+    bottom: 0.625em;
+    right: 1.25em;
 
 }
 
@@ -41,10 +45,10 @@ header img {
     font-family: "Tinos", serif;
   font-weight: 500;
   font-style: normal;
-    margin-left: 10px;
-    padding: 5px 10px;
+    margin-left: 0.625em;
+    padding: 0.3125em 0.625em;
     border: 1px solid white;
-    border-radius: 5px;
+    border-radius: 0.3125em;
     transition: background-color 0.3s;
 
 }
@@ -66,7 +70,7 @@ header img {
 
 .container img {
     opacity: 0.6;
-    height: 900px;
+    height: 40%;
     width: 95%;
 }
 
@@ -85,7 +89,7 @@ h2 {
   font-weight: 400;
   font-style: normal;
   color: black;
-  font-size: 60px;
+  font-size: 3.75em;
   text-shadow: 2px 2px #B592A8;
   
 
@@ -117,6 +121,10 @@ h2 {
     padding-bottom: 2%;
     padding-top: 1%;
     font-weight: 500;
+    width: 90%;
+    padding: 1.25em;
+    margin: 0 auto;
+
 
 }
 
@@ -124,7 +132,7 @@ h2 {
     font-family: "Tinos", serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 20px;
+    font-size: 1.25em;
     color: black;
     padding-left: 1%;
     padding-right: 1%;
@@ -136,20 +144,21 @@ h2 {
 .sponsor h2 {
     text-align: center;
     position: relative;
-    top: 40px;
+    top: 2.5em;
 }
 
 
 .sponsor h2 {
-    font-size: 40px;
+    font-size: 2.5em;
     position: relative;
     left: 3%;
     padding-top: 3%;
 }
 
 .sponsor-img img {
-    width: 350px;
-    padding-left: 10%;
+    width: 70%;
+
+
 }
 
 .sponsor-img {
@@ -162,6 +171,7 @@ h2 {
 .sponsor-img a {
     position: relative;
     left: 13%;
+    right: 15%;
 }
 
 footer {
@@ -173,4 +183,10 @@ footer {
 
 .footer p {
     padding-top: 3%;
+}
+
+@media screen and (max-width: 600px){
+
+      
+    
 }

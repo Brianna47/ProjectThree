@@ -13,7 +13,7 @@
 
 
 
-### Technical Details
+### Technical Details and Acknowledgements
 
 Fonts 
 
@@ -30,4 +30,13 @@ Tinos by Steve Matteson
 Development
 
 Figma was used in the development for the wireframe
+
+Sites to credit for aid in certain code include W3schools.com and geeksforgeeks.org. Specifically used to help with organization of my code and for the making of the boxes for the events page. 
+
+Images were AI developed using canva.com 
+
+The merch mockups/physical assets were created using photoshop. This includes a hoodie, a zip-up, and a onsie.
+
+
+
 

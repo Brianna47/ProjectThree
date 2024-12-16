@@ -114,7 +114,9 @@ h2 {
     padding-right: 10px;
 }
 
-
+#days {
+    margin: 2%;
+}
 
 #days h3 {
     font-family: "Fascinate Inline", system-ui;
@@ -122,14 +124,25 @@ h2 {
     font-size: 40px;
 }
 
+#days h4 {
+    font-weight: bold;
+}
+
+.day-one {
+    padding-bottom: 5%;
+}
+
 .day-two h3 {
     position: relative;
+    padding-right: 1%;
 
 }
 
 .day-two {
     text-align: right;
     padding-right: 1px;
+    padding-top: 3%;
+    padding-bottom: 5%;
 }
 
 .day-two p {
@@ -145,15 +158,18 @@ h2 {
 
 .day-three {
     position: relative;
-    bottom: 2px;
+    padding-bottom: 5%;
+    padding-top: 3%;
 
 }
 
 footer {
-    background-color: rgb(117, 176, 215);
+    background-color: #75b0d7;
     color: white;
     text-align: center;
+    padding: 10px 0;
+}
 
-
-    
+.footer p {
+    padding-top: 3%;
 }
